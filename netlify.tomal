@@ -1,0 +1,1 @@
+Make sure the sitemap.xml and robots.txt sections are ABOVE the /* section. If you put the /* at the top, it will block Google from ever seeing your sitemap.
