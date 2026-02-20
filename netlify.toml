@@ -1,1 +1,22 @@
-Make sure the sitemap.xml and robots.txt sections are ABOVE the /* section. If you put the /* at the top, it will block Google from ever seeing your sitemap.
+[build]
+publish = "."
+
+[[headers]]
+for = "/sitemap.xml"
+[headers.values]
+Content-Type = "application/xml"
+
+[[redirects]]
+from = "/sitemap.xml"
+to = "/sitemap.xml"
+status = 200
+
+[[redirects]]
+from = "/robots.txt"
+to = "/robots.txt"
+status = 200
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
