@@ -1,1 +1,29 @@
-I have included all the key pages found in your repository (except admin.html, which should stay hidden).
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="[suspicious link removed]">
+<url>
+<loc></loc>
+<lastmod>2026-02-20</lastmod>
+<priority>1.00</priority>
+</url>
+<url>
+<loc></loc>
+<lastmod>2026-02-20</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc></loc>
+<lastmod>2026-02-20</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc></loc>
+<lastmod>2026-02-20</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc></loc>
+<lastmod>2026-02-20</lastmod>
+<priority>0.60</priority>
+</url>
+</urlset>
